@@ -27,7 +27,7 @@
     <th>Action</th>
   </thead>
   <tbody>
-    <?php $__currentLoopData = $users; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $user): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+    <?php $__currentLoopData = $employees; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $user): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
     <tr>
       <td><?php echo e($user->id); ?></td>
       <td><?php echo e($user->full_name); ?></td>

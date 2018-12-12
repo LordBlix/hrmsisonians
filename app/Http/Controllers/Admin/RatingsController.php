@@ -27,23 +27,11 @@ class RatingsController extends AdminBaseController
      */
     public function index()
     {
-        //
+        $this->data['employees'] = Employee::all();
 
-        $customer_data = $this->get_customer_data();
-        $this->data['users'] = Employee::all();
+        return View::make('admin.ratings.index', $this->data);
 
-        return view('dynamic_pdf')->with('customer_data', $customer_data);
-   //  return View::make('admin.ratings.index',$this->data);
-    }
-
-function get_customer_data()
-{
-
-    $customer_data = DB::table('tbl_customer')
-                       ->limit(10)
-                          ->get();
-return $customer_data;
-                        } 
+    } 
 
 
 

@@ -25,7 +25,7 @@
     <th>Action</th>
   </thead>
   <tbody>
-    @foreach($users as $user)
+    @foreach($employees as $user)
     <tr>
       <td>{{$user->id}}</td>
       <td>{{$user->full_name}}</td>

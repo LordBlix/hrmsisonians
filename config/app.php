@@ -162,6 +162,7 @@ return [
         App\Providers\EventServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        Barryvdh\DomPDF\ServiceProvider::class,
 
     ],
 
@@ -218,6 +219,7 @@ return [
         'PdfReport' => Jimmyjs\ReportGenerator\Facades\PdfReportFacade::class,
 'ExcelReport' => Jimmyjs\ReportGenerator\Facades\ExcelReportFacade::class,
 'CSVReport' => Jimmyjs\ReportGenerator\Facades\CSVReportFacade::class,
+'PDF' => Barryvdh\DomPDF\Facade::class,
     ],
 
 ];
