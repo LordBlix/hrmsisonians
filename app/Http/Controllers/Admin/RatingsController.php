@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\View;
 use PdfReport;
 use App\Models\Employee;
 use DB;
+use PDF;
 
 class RatingsController extends AdminBaseController
 {
@@ -35,11 +36,13 @@ class RatingsController extends AdminBaseController
 
 
 
-    public function downloadPDF($id){
-        $title = 'Registered User Report'; 
-       return PdfReport::of($title)
-         ->setPaper('a6')
-         ->make();
+    public function downloadPDF(){
+        $data = ['title' => 'Welcome to HDTuto.com'];
+
+        $pdf = PDF::loadView('admin.ratings.pdf');
+
+
+        return $pdf->stream();
       }
 
 
