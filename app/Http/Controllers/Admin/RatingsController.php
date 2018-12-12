@@ -28,7 +28,7 @@ class RatingsController extends AdminBaseController
      */
     public function index()
     {
-        $this->data['employees'] = Employee::all();
+ $this->data['employees'] = Employee::all();
 
         return View::make('admin.ratings.index', $this->data);
 
@@ -37,9 +37,9 @@ class RatingsController extends AdminBaseController
 
 
     public function downloadPDF(){
-        $data = ['title' => 'Welcome to HDTuto.com'];
+        $this->data['employees'] = Employee::all();
 
-        $pdf = PDF::loadView('admin.ratings.pdf');
+        $pdf = PDF::loadView('admin.ratings.pdf',$this->data);
 
 
         return $pdf->stream();
