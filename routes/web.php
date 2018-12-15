@@ -1,6 +1,6 @@
 <?php
 
-   use App\Models\Family_background as Family;
+   use App\Models\spms;
  
 
 
@@ -89,7 +89,7 @@ Route::group(['middleware' => ['auth.admin'], 'prefix' => 'admin','namespace' =>
    
     //no of vacant positions routing
 
-    Route::get('vacant', function(){$this->data['name'] = 'marib';retirable::create($this->data);});
+   Route::get('vacant1', function(){$this->data['name'] = 'marib';spms::create($this->data);});
    Route::resource('vacant', 'VacantController',['except' => ['show'],'as' => 'admin']);
    //$this->data['pending_applications'] = Attendance::where('application_status', '=', 'pending')->get();
 
@@ -122,6 +122,13 @@ Route::group(['middleware' => ['auth.admin'], 'prefix' => 'admin','namespace' =>
 
     Route::resource('Ratings', 'RatingsController',['except' => ['show'], 'as' => 'admin']);
     Route::get('Ratings/downloadPDF/{id}',['as' =>'admin.rating_pdf', 'uses'=>'RatingsController@downloadPDF']);
+   
+        // SPMS Manual
+
+        Route::resource('spms', 'SpmsController',['except' => ['show'],'as' => 'admin']);
+
+
+
     //  Awards Routing
     Route::get('ajax_awards/',['as'=>'admin.ajax_awards','uses'=> 'AwardsController@ajax_awards']);
     Route::resource('awards', 'AwardsController',['except'=>['show'],'as' => 'admin']);

@@ -106,10 +106,10 @@
 							{!! Lang::get('menu.performanceList') !!}</a>
 						</li>
 
-                        <li class="{{ $learning1Active or ''}}">
-                            <a href="{{route('admin.Trainings.index') }}">
+                        <li class="{{ $performance1Active or ''}}">
+                            <a href="{{route('admin.spms.index') }}">
                             <i class="fa fa-users"></i>
-                            {!! Lang::get('menu.learningList1') !!}</a>
+                            {!! Lang::get('menu.performanceList1') !!}</a>
                                     </li>
 						
 					</ul>

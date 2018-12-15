@@ -19,14 +19,14 @@ class Employee extends \Eloquent implements Authenticatable
 		'create' => [
 			'employeeID'    =>  'required|unique:employees,employeeID|alpha_dash',
 			'fullName'      =>  $fullNameValidation,
-			//'email'         =>  'required|email|unique:employees',
-			//'password'      =>  'required',
-			//'profileImage'  =>  $ProfileImageValidation,
-			//'resume'        =>  'max:1000',
-			//'offerLetter'   =>  'max:1000',
-			//'joiningLetter' =>  'max:1000',
-			//'contract'      =>  'max:1000',
-			//'IDProof'       =>  'max:1000',
+			'email'         =>  'max:1000',
+			'password'      =>  'max:1000',
+			'profileImage'  =>  $ProfileImageValidation,
+			'resume'        =>  'max:1000',
+			'offerLetter'   =>  'max:1000',
+			'joiningLetter' =>  'max:1000',
+			'contract'      =>  'max:1000',
+			'IDProof'       =>  'max:1000',
 		],
 
 		'update'=>[

@@ -9,7 +9,7 @@ use PdfReport;
 use App\Models\Employee;
 use DB;
 use PDF;
-
+use Illuminate\Support\Facades\Response;
 class RatingsController extends AdminBaseController
 {
 
@@ -28,17 +28,22 @@ class RatingsController extends AdminBaseController
      */
     public function index()
     {
+        $this->data['performanceActive'] = 'active';
  $this->data['employees'] = Employee::all();
-
-        return View::make('admin.ratings.index', $this->data);
+return View::make('admin.ratings.index', $this->data);
 
     } 
 
 
 
-    public function downloadPDF(){
-        $this->data['employees'] = Employee::all();
-
+    public function downloadPDF($id){
+   
+  // return $id;
+   
+        //  $this->data['employees'] = Employee::all();
+      $this->data['november'] = 'ddd';
+      $this->data['employees'] = employee::find($id);
+      //$this->data['employees'] = employee::find($id)-first();
         $pdf = PDF::loadView('admin.ratings.pdf',$this->data);
 
 

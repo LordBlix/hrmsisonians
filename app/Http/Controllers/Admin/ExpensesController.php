@@ -150,7 +150,7 @@ class ExpensesController extends AdminBaseController {
             $data['bill'] = $data['billhidden'];
         }
             unset($data['billhidden']);
-	return	$expense->update($data);
+		$expense->update($data);
 
         Session::flash('success',"<strong>{$data['itemName']}</strong> updated successfully");
 		return Redirect::route('admin.expenses.edit',$id);

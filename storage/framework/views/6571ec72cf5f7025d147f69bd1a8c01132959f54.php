@@ -106,10 +106,10 @@
 							<?php echo Lang::get('menu.performanceList'); ?></a>
 						</li>
 
-                        <li class="<?php echo e(isset($learning1Active) ? $learning1Active : ''); ?>">
-                            <a href="<?php echo e(route('admin.Trainings.index')); ?>">
+                        <li class="<?php echo e(isset($performance1Active) ? $performance1Active : ''); ?>">
+                            <a href="<?php echo e(route('admin.spms.index')); ?>">
                             <i class="fa fa-users"></i>
-                            <?php echo Lang::get('menu.learningList1'); ?></a>
+                            <?php echo Lang::get('menu.performanceList1'); ?></a>
                                     </li>
 						
 					</ul>

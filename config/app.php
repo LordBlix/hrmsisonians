@@ -148,7 +148,7 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         Yajra\DataTables\DataTablesServiceProvider::class,
         RachidLaasri\LaravelInstaller\Providers\LaravelInstallerServiceProvider::class,
-     //   Jimmyjs\ReportGenerator\ServiceProvider::class,
+
         /*
          * Package Service Providers...
          */
@@ -158,11 +158,10 @@ return [
          */
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
-        App\Providers\BroadcastServiceProvider::class,
+        // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        Barryvdh\DomPDF\ServiceProvider::class,
 
     ],
 
@@ -215,11 +214,8 @@ return [
         'Form' => 'Collective\Html\FormFacade',
         'HTML' => 'Collective\Html\HtmlFacade',
         'DataTables' => Yajra\DataTables\Facades\DataTables::class,
-        'Excel' => Maatwebsite\Excel\Facades\Excel::class,
-        'PdfReport' => Jimmyjs\ReportGenerator\Facades\PdfReportFacade::class,
-'ExcelReport' => Jimmyjs\ReportGenerator\Facades\ExcelReportFacade::class,
-'CSVReport' => Jimmyjs\ReportGenerator\Facades\CSVReportFacade::class,
-'PDF' => Barryvdh\DomPDF\Facade::class,
+        'Excel' => Maatwebsite\Excel\Facades\Excel::class
+        
     ],
 
 ];

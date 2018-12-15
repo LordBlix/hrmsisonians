@@ -24,6 +24,7 @@ return [
 	'learningList1'			=>	'TRAINING PROFILE',
 	'performance'			=>	'PERFORMANCE MANAGEMENT',
 	'performanceList'		=>	'RATING PROFILES (PER SEMESTER)',
+	'performanceList1'		=>	'SPMS MANUAL',
 	'department'            =>  'Department',
 	'departmentList'        =>  'Department List',
 	'award'                 =>  'Award',

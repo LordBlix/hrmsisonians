@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\View;
 
 class AdminBaseController extends Controller {
 
-    protected  $data = [];
+  //  protected  $data = [];
 
 
     public function __construct()
@@ -17,10 +17,10 @@ class AdminBaseController extends Controller {
 		$this->middleware(function ($request, $next) {
 			$this->data['setting'] = Setting::all()->first();
 
-			if (!isset($this->data['setting']) && count($this->data['setting']) == 0) {
-				die('Database not uploaded.Please Upload the database');
-			}
-		//	if (count($this->data['setting'])) {
+		//	if (!isset($this->data['setting']) && count($this->data['setting']) == 0) {
+		//		die('Database not uploaded.Please Upload the database');
+	//		}
+			//if (count($this->data['setting'])) {
 
 		//	}
 			$this->data['loggedAdmin'] = Auth::guard('admin')->user();
@@ -34,10 +34,10 @@ class AdminBaseController extends Controller {
 
 	protected function setupLayout()
 	{
-		if ( ! is_null($this->layout))
-		{
-			$this->layout = View::make($this->layout);
-		}
+//		if ( ! is_null($this->layout))
+//		{
+//			$this->layout = View::make($this->layout);
+//		}
 	}
 
 }

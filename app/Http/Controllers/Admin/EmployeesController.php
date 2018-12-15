@@ -20,7 +20,13 @@ use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\View;
 use Intervention\Image\Facades\Image;
+
+use Maatwebsite\Excel\Exporter;
+use App\Exports\YourExport;
+use App\Imports\YourImport;
 use Illuminate\Http\Request;
+
+
 /**
  * Class EmployeesController
  * This Controller is for the all the related function applied on employees
@@ -54,6 +60,9 @@ class EmployeesController extends AdminBaseController {
 	{
 		$this->data['employeesActive'] =   'active';
 		$this->data['department']      =     Department::pluck('deptName','id');
+	//	$this->data['errors']  = ['maribeth', 'mik'];
+
+		
 
 		return View::make('admin.employees.create',$this->data);
 	}
@@ -63,51 +72,34 @@ class EmployeesController extends AdminBaseController {
 	 */
 	public function store(Request $input)
 	{
-			$this->validate($input,Employee::rules('create'));
-	
-	
+		return	$this->validate($input,Employee::rules('create'));
+//	$this->validate($input,Employee::rules('create)
+		//	$this->validate($input,[
+		//	'employeeID'    =>  'required|unique:employees,employeeID|alpha_dash',
+		//	'fullName'      =>  'required'
+
+		
 		
 
-			DB::connection()->enableQueryLog();
-			DB::beginTransaction();
-			try {
-				Employee::create([
-					'employeeID'    => $input['employeeID'],
-					'fullName'      => ucwords(strtolower($input['fullName'])),
-			
-				]);
-			}catch(\Exception $e)
-			{
-				DB::rollback();
-				throw $e;
-			}
-	
-			DB::commit();
-			
-
-
-
-			
-            if ($input['educationType'] && is_array($input['educationType'])) {
-
-                
-
-			    foreach (Input::get('educationType') as $key => $value) {
-			        Employee_education::create([
-			            'employeeID'        => $input['employeeID'],
-			            'type'              => $value,
-			           // 'school'            => $input['schoolName'][$key],
-			            //'start_date'        => Carbon::parse($input['educationStart'][$key]),
-			            //'end_date'          => Carbon::parse($input['educationEnds'][$key]),
-			            //'graduation_year'   => Carbon::parse($input['educationGraduationYear'][$key]),
-			            //'honor_received'    => $input['eductionHonors'][$key]
-                    ]);
-                }
-            }
-
-			return Redirect::route('admin.employees.index')->with('success',"<strong>{$input['fullName']}</strong> successfully added to the Database");
+		DB::connection()->enableQueryLog();
+		DB::beginTransaction();
+		try {
+			Employee::create([
+				'employeeID'    => $input['employeeID'],
+				'fullName'      => ucwords(strtolower($input['fullName'])),
 		
+			]);
+		}catch(\Exception $e)
+		{
+			DB::rollback();
+			throw $e;
 		}
+
+		DB::commit();
+		return Redirect::route('admin.employees.index')->with('success',"<strong>{$input['fullName']}</strong> successfully added to the Database");
+	}
+
+
 
 
 	/**
@@ -140,7 +132,7 @@ class EmployeesController extends AdminBaseController {
 	 * Update the specified employee in storage.
 	 */
 	public function update($id)
-	{ //return input::all();
+	{
 		//----Bank Details Update-------
 		if(Input::get('updateType')=='bank')
 		{
@@ -263,17 +255,16 @@ class EmployeesController extends AdminBaseController {
 
 
 			$employee->update(
-				
 				[
 					'fullName'      => ucwords(strtolower($input['fullName'])),
-					'place_of_birth'    => ucwords(strtolower($input['placeOfBirth'])),
-					'sex'        => $input['sex'],
+					'fatherName'    => ucwords(strtolower($input['fatherName'])),
+					'gender'        => $input['gender'],
 					'email'         => $input['email'],
 					'password'      => $password,
 					'date_of_birth' => (trim(Input::get('date_of_birth'))!='')?date('Y-m-d',strtotime(Input::get('date_of_birth'))):null,
-					'civil_status'  => $input['civilStatus'],
-					'Weight'  => $input['weight'],
-					'Height' => $input['height'],
+					'mobileNumber'  => $input['mobileNumber'],
+					'localAddress'  => $input['localAddress'],
+					'permanentAddress' => $input['permanentAddress'],
 					'profileImage'     => $filename,
 				]);
 
@@ -336,10 +327,10 @@ class EmployeesController extends AdminBaseController {
                     'employeeID'        => $id,
                     'type'              => $value,
                     'school'            => Input::get('schoolName')[$key],
-                    'start_date'        => Carbon::parse(Input::get('educationStart')[$key]),
-                    'end_date'          => Carbon::parse(Input::get('educationEnds')[$key]),
-                    'graduation_year'   => Carbon::parse(Input::get('educationGraduationYear')[$key]),
-                    'honor_received'    => Input::get('eductionHonors')[$key]
+                    ///'start_date'        => Carbon::parse(Input::get('educationStart')[$key]),
+                    //'end_date'          => Carbon::parse(Input::get('educationEnds')[$key]),
+                    //'graduation_year'   => Carbon::parse(Input::get('educationGraduationYear')[$key]),
+                    //'honor_received'    => Input::get('eductionHonors')[$key]
                 ]);
             }
 
