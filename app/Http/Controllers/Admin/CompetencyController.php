@@ -93,7 +93,7 @@ class CompetencyController extends AdminBaseController
 
 
     ]);
-    return Redirect::back()->with('success',"<strong>{$input['name']}</strong> successfully added to the Database")->with('errorr',$input['employeeID']);
+    return Redirect::back()->with('success',"<strong>{$input['employeeID']}</strong> successfully added to the Database")->with('errorr',$input['employeeID']);
 } 
 else    if(Input::get('updateType')=='Family')
 {
@@ -129,7 +129,14 @@ return 'okay';
      */
     public function edit(competency $competency)
     {
-        //
+        // 
+
+        $this->data['personal'] = 'active';
+        $this->data['tab7']= 'tab-pane active';
+
+    $this->data['competencies'] = $competency;
+
+        return view::make('admin.competency.edit', $this->data);
     }
 
     /**

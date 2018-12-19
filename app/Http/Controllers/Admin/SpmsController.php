@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use  App\Http\Controllers\AdminBaseController;
 use App\Models\spms;
+use App\Models\Employee;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\View;
 class SpmsController extends AdminBaseController
@@ -22,8 +23,11 @@ class SpmsController extends AdminBaseController
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
+    { 
         $this->data['performance1Active'] ='active';
+        $this->data['emps'] = 'checked';
+
+        $this->data['employees'] = Employee::find(1);
         return View::make('admin.spms.index', $this->data);
       
     

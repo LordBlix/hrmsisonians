@@ -16,114 +16,179 @@
     @endphp
     <div class="container-fluid">
   <div class="row-fluid header">
-    <h3 class="center maintitle">PERSONAL DATA SHEET</h3>
+  <p><b><i>CS Form No. 212</i></b></p>
+  <p style="font-size:10px;"><b><i>Revised 2017</i></b></p>
+    <h3 style="font-family:arial;"class="center maintitle"><b>PERSONAL DATA SHEET</b></h3>
+    <p style="font-size:10px;"><b><i>WARNING: Any misinterpretation made in the Personal Data Sheet and the Work Experience Sheet shall cause the filing of administrative/criminal cas/s against the person concerned.</i></b></p>
+    <p style="font-size:10px;"><b><i>READ THE ATTACHED GUIDE TO FILLING OUT THE PERSONAL DATA SHEET (PDS) BEFORE ACCOMPLISHING THE PDS FORM.</i></b></p>
+    <p style="font-size:8px;">Print legibly. Tick appropriate boxes and use separate sheet if necessary. Indicate N/A if not applicable. <b>DO NOT ABBREVIATE.</b></p>
     <p class="pull-right">CS ID No. _______________</p>
+   
   </div>
   <!--ROW1-->
   <div class="row-fluid body">
-    <h5 class="title5"><i>PERSONAL INFORMATION</i></h5>
-    <table class="table">
+    <h5 class="title5"><i>I. PERSONAL INFORMATION</i></h5>
+    <table class="table" width="100%">
       <tbody>
+      <tr>
+      <td width="30%" class="backgroundright">2. SURNAME</td>
+      <td colspan="1" class="surname">{{$employees->surname}}</td>
+      <td class="bottom"></td>
+      <td class="bottom"></td>
+      <td class="bottom"></td>
+      <td class="bottom"></td>
+
+      <tr>
+      <td width="30%" class="backgroundright">FIRST NAME</td>
+      <td width="20%" colspan="1" class="bottom">{{$employees->first_name}}</td>
+      <td width="20%" class="bottom"></td>
+      <td width="15%" class="backgroundleftrightbottom">NAME EXTENSION (JR, SR. N/A)</td>
+      <td class="bottom">{{$employees->extension}}</td>
+      <td class="bottom"></td>
+    </tr>
+
         <tr>
-          <td class="tbl">SURNAME</td>
-          <td colspan="3"></td>
+        <td width="30%" class="backgroundright2px">MIDDLE NAME</td>
+        <td width="20%" class="bottom2px">{{$employees->middle_name}}</td>
+        <td width="15%" class="bottom2px"></td>
+        <td class="bottom2px"></td>
+        <td class="bottom2px"></td>
+        <td class="bottom2px"></td>
+
         </tr>
         <tr>
-          <td class="tbl">FIRSTNAME</td>
-          <td colspan="3"></td>
+        <td width="30%" class="backgroundbottomright">3. DATE OF BIRTH<br>(mm/dd/yyyy)</td>
+        <td width="10%" class="bottomright2px">{{$employees->date_of_birth}}</td>
+        <td width="15%" class="backgroundleft2pxright">16. CITIZENSHIP</td>
+        <td colspan="2" class=""><input type="checkbox" value="" name="a36"/>Filipino <?php echo str_repeat("&nbsp;",5) ?> <input type="checkbox" value="" name="a36"/>Dual Citizenship
+        <br><?php echo str_repeat("&nbsp;",35) ?><input type="checkbox" value="" name="a36"/>by birth <?php echo str_repeat("&nbsp;",5) ?> <input type="checkbox" value="" name="a36"/>by naturalization
+        
         </tr>
         <tr>
-          <td class="tbl">MIDDLENAME</td>
-          <td></td>
-          <td class="tbl">NAME EXTENSION</td>
-          <td></td>
+        <td class="backgroundbottomright">4. PLACE OF BIRTH</td>
+      <td class="bottomright2px">{{$employees->place_of_birth}}</td>
+       <td class="backgroundholder" >if holder of dual citizenship,</td>
+      <td>Please indicate country</td>
         </tr>
         <tr>
-          <td class="tbl">DATE OF BIRTH</td>
-          <td></td>
-          <td class="tbl" rowspan="2">RESIDENTIAL ADDRESS</td>
-          <td rowspan="2"></td>
+        <td class="backgroundbottomright">5. SEX</td>
+        <td class="bottomright2px"> <input type="checkbox" name="vehicle" value="Bike" >Male<?php echo str_repeat("&nbsp;",12)?><input type="checkbox" name="vehicle" value="Car" {{$emps}}> Female</td>
+        <td class="backgroundbottomright" style="vertical-align:center">please indicate the details</td>
+        <td class="bottom"> <select style="width: 300px;">
+  <option value="volvo">Philippines</option>
+  <option value="saab">Japan</option>
+  <option value="mercedes">Australia</option>
+  <option value="audi">Saudi Arabia</option>
+</select> </td>
+<td class="bottom"></td>
+<td class="bottom"></td>
+</tr>
+<tr>
+        <td class="backgroundright">6. CIVIL STATUS</td>
+        <td class="right2x"><input type="checkbox" value="" name="a36"/> Single&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" value="" name="a36"/> Married<br>
+        <input type="checkbox" value="" name="a36"/> Widowed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" value="" name="a36"/> Separated</td>
+        <td style="vertical-align:top;"class="backgroundleft2pxright">17. RESIDENTIAL ADDRESS</td>
+        <td class="bottom" style="vertical-align:bottom;"><i>House/Block/Lot No.</i></td>
+        <td class="bottom" style="vertical-align:bottom" width="30%"><i>Street</i></td>
+        <td class="bottom"></td>
+              <tr>
+        <td class="backgroundbottomright">&nbsp;</td>
+        <td class="bottomright2px"><input type="checkbox" value="" name="a36"/>Other/s:</td>
+        <td class="backgroundright"></td>
+        <td class="bottom" style="vertical-align:bottom;"><i>Subdivision/Village</i></td>
+        <td class="bottom" style="vertical-align:bottom" width="30%"><i>Barangay</i></td>
+        <td class="bottom"></td>
         </tr>
         <tr>
-          <td class="tbl">PLACE OF BIRTH</td>
-          <td></td>
+        <td class="backgroundbottomright">7. HEIGHT (m)</td>
+        <td class="bottomright2px"></td>
+        <td class="backgroundleft2pxright"></td>
+        <td class="bottom" style="vertical-align:bottom" style="vertical-align:bottom;"><i>City/Municipality</i></td>
+        <td class="bottom" style="vertical-align:bottom" width="30%"><i>Province</i></td>
+        <td class="bottom"></td>
         </tr>
-        <tr>
-          <td class="tbl">SEX</td>
-          <td></td>
-          <td class="tbl">ZIPCODE</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td class="tbl">CIVIL STATUS</td>
-          <td></td>
-          <td class="tbl">TELEPHONE NO.</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td class="tbl">CITIZENSHIP</td>
-          <td></td>
-          <td class="tbl" rowspan="2">PERMANENT ADDRESS</td>
-          <td rowspan="2"></td>
-        </tr>
-        <tr>
-          <td class="tbl">HEIGHT(m)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td class="tbl">WEIGHT(kg)</td>
-          <td></td>
-          <td class="tbl">ZIPCODE</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td class="tbl">BLOOD TYPE</td>
-          <td></td>
-          <td class="tbl">TELEPHONE NO.</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td class="tbl">GSIS NO.</td>
-          <td></td>
-          <td class="tbl">E-MAIL ADDRESS</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td class="tbl">PAG-IBIG ID NO.</td>
-          <td></td>
-          <td class="tbl">CELLPHONE NO.</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td class="tbl">PHILHEALTH NO.</td>
-          <td></td>
-          <td class="tbl">AGENCY EMPLOYEE NO.</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td class="tbl">SSS NO.</td>
-          <td></td>
-          <td class="tbl">T.I.N.</td>
-          <td></td>
-        </tr>
+     <tr>
+     <td class="backgroundbottomright">8.WEIGHT  (kg.)</td>
+     <td class="bottomright2px"></td>
+     <td class="backgroundbottomright">ZIP CODE</td>
+     <td class="bottom"></td>
+     <td class="bottom"></td>
+     <td class="bottom"></td>
+     </tr>
+     <tr>
+     <td class="backgroundbottomright">9. BLOOD TYPE</td>
+     <td class="bottomright2px"></td>
+     <td class="backgroundright">18. PERMANENT ADDRESS</td>
+     <td class="bottom" style="vertical-align:bottom" style="vertical-align:bottom;"><i>HouseBlock/Lot No.</i></td>
+        <td class="bottom" style="vertical-align:bottom" width="30%"><i>Street</i></td>
+        <td class="bottom"></td>
+     </tr>
+     <tr>
+     <td class="backgroundbottomright">10. GSIS ID NO.</td>
+     <td class="bottomright2px"></td>
+     <td class="backgroundright"></td>
+     <td class="bottom" style="vertical-align:bottom" style="vertical-align:bottom;"><i>Subdivion/Village</i></td>
+        <td class="bottom" style="vertical-align:bottom" width="30%"><i>Barangay</i></td>
+    <td class="bottom"></td>
+    
+     </tr>
+     <tr>
+     <td class="backgroundbottomright">11. PAG-IBIG ID NO.</td>
+     <td class="bottomright2px"></td>
+     <td class="backgroundright"></td>
+     <td class="bottom" style="vertical-align:bottom" width="30%"><i>City/Municipality</i></td>
+      <td class="bottom" style="vertical-align:bottom" width="30%"><i>Province</i></td>
+      <td class="bottom"></td>
+     </tr>
+     <tr>
+     <td class="backgroundbottomright">12. PHILHEALTH NO.</td>
+     <td class="bottomright2px"></td>
+     <td class="backgroundbottomright">ZIP CODE</td>
+     <td class="bottom"></td>
+     <td class="bottom"></td>
+     <td class="bottom"></td>
+     </tr>
+     <tr>
+     <td class="backgroundbottomright">13. SSS NO.</td>
+     <td class="bottomright2px"></td>
+     <td class="backgroundbottomright">19. TELEPHONE</td>
+     <td class="bottom">N/A</td>
+     <td class="bottom"></td>
+     <td class="bottom"></td>
+     </tr>
+     <tr>
+     <td class="backgroundbottomright">14. TIN NO.</td>
+     <td class="bottomright2px"></td>
+     <td class="backgroundbottomright">20. MOBILE</td>
+     <td class="bottom">{{$employees->mobileNumber}}</td>
+     <td class="bottom"></td>
+     <td class="bottom"></td>
+     </tr>
+     <tr>
+     <td class="backgroundbottomright">AGENCY EMPLOYEE NO.</td>
+     <td class="bottomright2px"></td>
+     <td class="backgroundbottomright">E-MAIL ADDRESS  (if any)</td>
+     <td class="bottom">N/A</td>
+     <td claass="bottom"></td>
+     </tr>
       </tbody>
     </table>
   </div>
   <!--ROW2-->
   <div class="row-fluid body">
-    <h5 class="title5"><i>FAMILY BACKGROUND</i></h5>
-    <table class="table">
+    <h5 class="title5"><b><i>II. FAMILY BACKGROUND</i></b></h5>
+    <table class="table" width="100%">
       <tbody>
         <tr>
-          <td class="tbl">SPOUSE'S SURNAME</td>
+          <td width="30%" class="tbl">22. SPOUSE'S SURNAME</td>
           <td></td>
-          <td class="list">NAME OF CHILD</td>
+          <td style="padding-right:60px;" class="list">NAME OF CHILD</td>
           <td class="list">DATE OF BIRTH</td>
         </tr>
         <tr>
-          <td class="tbl">FIRST SURNAME</td>
-          <td></td>
-          <td></td>
+          <td width="30%" class="tbl">FIRST NAME</td>
+          <td width="20%">rrrr</td>
+          <td width="20%">rrrr</td>
           <td></td>
         </tr>
         <tr>
@@ -175,7 +240,7 @@
          
         </tr>
         <tr>
-          <td class="tbl">MOTHER'S MAIDEN SURNAME</td>
+          <td class="tbl">25. MOTHER'S MAIDEN NAME</td>
           <td></td>
           <td></td>
           <td></td>
@@ -196,31 +261,32 @@
   </div>
   <!--ROW3-->
   <div class="row-fluid body">
-    <h5 class="title5"><i>EDUCATIONAL BACKGROUND</i></h5>
-    <table class="table">
+    <h5 class="title5"><b><i>III. EDUCATIONAL BACKGROUND</i></b></h5>
+    <table class="table" width="100">
       <tbody>
         <tr>
-          <td class="tbl center" rowspan="2">LEVEL</td>
+          <td class="tbl" rowspan="2">26.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LEVEL</td>
           <td class="tbl center" rowspan="2">NAME OF SCHOOL<br>(write in full)</td>
-          <td class="tbl center" rowspan="2">BASIC<br>EDUCATION/DEGREE/COURSE<br>(write in full)</td>
-          <td width="50" class="tbl center" rowspan="2">YEAR GRADUATED</td>
-          <td class="tbl center" rowspan="2">HIGHEST GRADE/LEVEL EARNED</td>
-          <td class="tbl center" colspan="2">INCLUSIVE DATES OF ATTENDANCE</td>
-          <td class="tbl center" rowspan="2">SCHOLARSHIP/HONORS RECEIVED</td>
+          <td class="tbl center" rowspan="2">BASIC EDUCATION/DEGREE/COURSE<br>(write in full)</td>
+          <td width="10" style="font-size:10px;" class="tbl center" colspan="2">PERIOD OF ATTENDANCE</td>
+          <td style="font-size:10px;" class="tbl center" rowspan="2">HIGHEST LEVEL<br>UNITS EARNED<br>(if not graduated)</td>
+          <td width="50" class="tbl center" rowspan="2">YEAR<br>GRADUATED</td>
+          <td class="tbl center" rowspan="2">SCHOLARSHIP/<br>ACADEMIC<BR>HONORS<BR>RECEIVED</td>
         </TR>
         <tr>
-          <td class="tbl center">FROM</td>
-          <td class="tbl center">TO</td>
+          <td width="10" class="tbl center">FROM</td>
+          <td width="10"  class="tbl center">TO</td>
         </tr>
         <tr>
-          <td class="tbl">ELEMENTARY</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td width="20%" class="tbl" >ELEMENTARY</td>
+          <td width="25%"></td>
+          <td width="25%"></td>
+          <td width="5%"></td>
+          <td width="5%"></td>
+          <td width="10%"></td>
+          <td width="5%"></td>
+          <td width="8%"></td>
+         
         </tr>
         <tr>
           <td class="tbl">SECONDARY</td>
@@ -233,7 +299,8 @@
           <td></td>
         </tr>
         <tr>
-          <td class="tbl">VOCATIONAL</td>
+          <td class="tbl">VOCATIONAL/<br>
+          TRADE COURSE</td>
           <td></td>
           <td></td>
           <td></td>
@@ -266,9 +333,9 @@
         <td style="color:red;" class="tbl center continue" colspan="8"><b><i>(Continue on separate sheet if necessary)</i></b></td>
         </tr>
         <tr>
-        <td class="tbl" colspan="1"><b><i><b>SIGNATURE</b></td>
+        <td class="tbl center continue" colspan="1"><b><i><b>SIGNATURE</b></td>
         <td style="" class="" colspan="2"></td>
-        <td style="" class="" colspan="2"></td>
+        <td class="tbl center continue" colspan="2"><b><i><b>DATE</b></td>
         <td colspan="3"></td>
         
         </tr>
@@ -630,18 +697,20 @@
   border:2px solid #000000;
 }
 .tbl{
-  width:150px;
+  
   
 }
+
 .list{
   width:300px;
+  height:1px;
 }
 .table{
   position:relative;
   top:-20px;
   margin-bottom:-20px;
 }
-table,th,td
+table,th,td1
 {
   border:1px solid #000000;
   font-size:12px;
@@ -672,6 +741,7 @@ table,th,td
   height:18px;
   background-color:#868686;
   font: italic bold 15px Georgia, serif;
+  
   border:2px solid #000000;
   color:#ffffff;
   position:relative;
@@ -689,18 +759,105 @@ table,th,td
   border:2px solid #000000;
 }
 .tbl{
-  width:150px;
+  height:1px;
   background-color:#a6a6a6;
 }
 .list{
+  height:1px;
   width:300px;
 }
+
+.surname{
+  border-left: 0.1mm solid black; 
+  border-bottom: 0.1mm solid black;
+  
+}
+
+.bottom{
+  height:1px;
+  border-bottom: 0.1mm solid black;
+}
+
+.backgroundright{
+  height:1px;
+  border-bottom: 0.1mm solid #a6a6a6;
+  border-right: 0.1mm solid black;
+   background-color:#a6a6a6;
+}
+
+.backgroundright2px{
+  border-bottom: 1mm solid black;
+  border-right: 0.1mm solid black;
+   background-color:#a6a6a6;
+}
+
+.bottom2px{
+  border-bottom: 1mm solid black;
+}
+
+.backgroundbottomright2px{
+border-bottom: 0.1mm solid black;
+border-right: 1mm solid black;
+background-color:#a6a6a6;
+}
+
+.backgroundleft2pxright{
+border-right: 0.1mm solid black;
+border-left: 1mm solid black;
+background-color:#a6a6a6;
+border-bottom: 0.1mm solid #a6a6a6;
+}
+
+.backgroundbottomright{
+border-bottom: 0.1mm solid black;
+border-right: 0.1mm solid black;
+background-color:#a6a6a6;
+}
+
+.backgroundtopbottom{
+border-top: 0.1mm solid black;
+border-bottom:0.1mm solid black;
+}
+
+.bottomright{
+border-bottom: 0.1mm solid black;
+border-right: 0.1mm solid black;
+}
+
+
+.bottomright2px{
+border-bottom: 0.1mm solid black;
+border-right: 1mm solid black;
+}
+
+.backgroundleftrightbottom{
+border-left: 0.1mm solid black;
+border-bottom: 0.1mm solid black;
+border-right: 0.1mm solid black;
+background-color:#a6a6a6;
+}
+
+.residentialaddress{
+  vertical-align:bottom
+}
+
+
+.right2x{
+  border-right: 1mm solid black; 
+}
+
+.backgroundholder{
+border-bottom:0.1mm solid #a6a6a6;
+border-right:0.1mm solid black;
+background-color:#a6a6a6;
+}
+
 .table{
   position:relative;
   top:-20px;
   margin-bottom:-20px;
 }
-table,th,td
+table,th,td1
 {
   border:1px solid #000000;
   font-size:12px;
@@ -720,6 +877,15 @@ table,th,td
 }
 .auth{
   background-color:#e0e0e0;
+}
+p.ex1 {
+  height:1px;
+  padding-left: 7%;
+  background-color:#a6a6a6;
+}
+p.ex2 {
+  height:14px;
+  background-color:#a6a6a6;
 }
 
 

@@ -1,6 +1,6 @@
 <?php
 
-   use App\Models\spms;
+   use App\Models\competency;
  
 
 
@@ -113,7 +113,9 @@ Route::group(['middleware' => ['auth.admin'], 'prefix' => 'admin','namespace' =>
     Route::resource('competency', 'CompetencyController',['except' => ['show'], 'as' => 'admin']);
     Route::get('competency/personal',['as'=>'admin.competency.personal','uses'=>'CompetencyController@personal']);        
     Route::get('competency/family',['as'=>'admin.competency.family','uses'=>'CompetencyController@family']);  
-
+    Route::get('competency/family/{competency}/edit', function(competency $competency){ 
+return $competency;
+    });
     // Training Profile routing*******************************
 
     Route::resource('Trainings', 'TrainingsController',['except' => ['show'], 'as' => 'admin']);
