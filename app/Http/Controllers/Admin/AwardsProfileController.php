@@ -5,9 +5,20 @@ use App\Http\Controllers\AdminBaseController;
 use App\Models\awards_profile;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\View;
 
-class AwardsProfileController extends Controller
+class AwardsProfileController extends AdminBaseController
 {
+
+
+
+    public function __construct()
+    {
+
+        parent::__construct();
+        $this->data['awardsOpen'] = 'active open';
+        $this->data['pageTitle'] = 'Awards Profile';
+    }
     /**
      * Display a listing of the resource.
      *
@@ -16,7 +27,10 @@ class AwardsProfileController extends Controller
     public function index()
     {
         //
-        return 'okay';
+        $this->data['rewardActive'] ='active';
+
+        return View::make('admin.awardprofile.index', $this->data);
+       // return 'okay';
     }
 
     /**

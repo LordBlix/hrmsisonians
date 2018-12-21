@@ -127,7 +127,7 @@
 					<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
-						<li class="{{ $ddd or ''}}">
+						<li class="{{ $rewardActive or ''}}">
 							<a href="{{route('admin.awarde.index')}}">
 							<i class="fa fa-users"></i>
 							{!! Lang::get('menu.rewardsList') !!}</a>
