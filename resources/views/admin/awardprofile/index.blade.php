@@ -16,16 +16,41 @@
     @endphp
 
 
-<table>
+<table width="100%">
 <tr>
-<td class="left backgroundright">rrrr</td>
+<td class="left backgroundright">&nbsp;</td>
 </tr>
 <tr>
-<td width="5%" class="backgroundleft">ee</td>
-<td width="45%" class="backgroundbottom top"></td>
-<td width="25%" class="backgroundbottom top">dddddddddddd</td>
-<td class="backgroundright top"></td>
+<td class="left backgroundright">&nbsp;</td>
+<td colspan="" class="right">Original Copy - for the Appointee</td>
+<td class="">&nbsp;</td>
+<td class="left backgroundright"></td>
 </tr>
+<tr>
+<td class="left backgroundright"></td>
+<td class="right">Original Copy - for the Civil Service Commission</td>
+<td width="2%" class="right"><i>Received original/photocopy of appointment on _______________</i></td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left backgroundright"></td>
+<td class="right">Original Copy - for the Agency</td>
+<td class="right center">_________________________________________________________</td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left backgroundright">&nbsp;</td>
+<td class="right"></td>
+<td class="right center">Appointee</td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td width="2%" class="bottom backgroundleft">&nbsp;</td>
+<td width="48%" class="backgroundbottom top"></td>
+<td width="38%"class="backgroundbottom top">&nbsp;</td>
+<td width="2%" class="backgroundbottomright">&nbsp;</td>
+</tr>
+
 
 </table>
 <style>
@@ -218,6 +243,12 @@ background-color:#a6a6a6;
 .residentialaddress{
   vertical-align:bottom
 }
+
+.right{
+
+    border-right: 0.1mm solid black;
+}
+
 
 
 .right2x{
