@@ -25,6 +25,8 @@ return [
 	'performance'			=>	'PERFORMANCE MANAGEMENT',
 	'performanceList'		=>	'RATING PROFILES (PER SEMESTER)',
 	'performanceList1'		=>	'SPMS MANUAL',
+	'rewards'				=>	'REWARDS AND RECOGNITION',
+	'rewardsList'			=>	'AWARDS PROFILE (BY YEAR)',
 	'department'            =>  'Department',
 	'departmentList'        =>  'Department List',
 	'award'                 =>  'Award',

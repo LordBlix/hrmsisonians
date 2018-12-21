@@ -120,14 +120,26 @@
               {{-------------------------------/Performance Management---------------------------}}
 
  {{-------------------------------Rewards and Recognition ---------------------------}}              
+ <li class="{{ $awardsOpen or ''}}">
+					<a href="javascript:;">
+					<i class="fa fa-users"></i>
+					<span class="title">{!! Lang::get('menu.rewards') !!}</span>
+					<span class="arrow "></span>
+					</a>
+					<ul class="sub-menu">
+						<li class="{{ $ddd or ''}}">
+							<a href="{{route('admin.awarde.index')}}">
+							<i class="fa fa-users"></i>
+							{!! Lang::get('menu.rewardsList') !!}</a>
+						</li>
 
-<li class="{{$RewardOpen or ''}}">
-<a href="javascript:;">
-<i class="fa fa-users"></i>
-
-
-</a>
-</li>
+                        <li class="{{ $awardsActive or ''}}">
+                        <a href="{{route('admin.awards.index')}}">
+                                        <i class="fa  fa-gift"></i>
+                                        {!! Lang::get('menu.awardList') !!}</a>
+						
+					</ul>
+				</li>
 
 
  {{-------------------------------Rewards and Recognition ---------------------------}}  
@@ -152,14 +164,14 @@
               {{---------------------------------------Settings-------------------------------}}
 
               {{---------------------------------------Awards-------------------------------}}
-                    <li class="{{ $awardsOpen or ''}}">
+                    <li class="{{ $awardsOpen1 or ''}}">
                                 <a href="javascript:;">
                                 <i class="fa fa-trophy"></i>
                                 <span class="title">{!! Lang::get('menu.award') !!}</span>
                                 <span class="arrow "></span>
                                 </a>
                                 <ul class="sub-menu">
-                                    <li class="{{ $awardsActive or ''}}">
+                                    <li class="{{ $awardsActive1 or ''}}">
                                         <a href="{{route('admin.awards.index')}}">
                                         <i class="fa  fa-gift"></i>
                                         {!! Lang::get('menu.awardList') !!}</a>

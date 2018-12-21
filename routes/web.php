@@ -1,6 +1,6 @@
 <?php
 
-   use App\Models\competency;
+ //  use App\Models\competency;
  
 
 
@@ -113,9 +113,9 @@ Route::group(['middleware' => ['auth.admin'], 'prefix' => 'admin','namespace' =>
     Route::resource('competency', 'CompetencyController',['except' => ['show'], 'as' => 'admin']);
     Route::get('competency/personal',['as'=>'admin.competency.personal','uses'=>'CompetencyController@personal']);        
     Route::get('competency/family',['as'=>'admin.competency.family','uses'=>'CompetencyController@family']);  
-    Route::get('competency/family/{competency}/edit', function(competency $competency){ 
-return $competency;
-    });
+    Route::get('competency/family/{competency}/edit', function(competency $competency){ return $competency;});
+    
+    
     // Training Profile routing*******************************
 
     Route::resource('Trainings', 'TrainingsController',['except' => ['show'], 'as' => 'admin']);
@@ -130,6 +130,10 @@ return $competency;
         Route::resource('spms', 'SpmsController',['except' => ['show'],'as' => 'admin']);
 
 
+        // AWARDS PROFILE BY YEAR
+
+      
+        Route::resource('awarde', 'AwardsProfileController',['except' => ['show'],'as' => 'admin']);
 
     //  Awards Routing
     Route::get('ajax_awards/',['as'=>'admin.ajax_awards','uses'=> 'AwardsController@ajax_awards']);

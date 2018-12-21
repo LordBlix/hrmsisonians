@@ -41,7 +41,7 @@
       <tr>
       <td width="30%" class="backgroundright">FIRST NAME</td>
       <td width="20%" colspan="1" class="bottom">{{$employees->first_name}}</td>
-      <td width="20%" class="bottom"></td>
+      <td width="18%" class="bottom"></td>
       <td width="15%" class="backgroundleftrightbottom">NAME EXTENSION (JR, SR. N/A)</td>
       <td class="bottom">{{$employees->extension}}</td>
       <td class="bottom"></td>
@@ -58,8 +58,8 @@
         </tr>
         <tr>
         <td width="30%" class="backgroundbottomright">3. DATE OF BIRTH<br>(mm/dd/yyyy)</td>
-        <td width="10%" class="bottomright2px">{{$employees->date_of_birth}}</td>
-        <td width="15%" class="backgroundleft2pxright">16. CITIZENSHIP</td>
+        <td width="7%" class="bottomright2px">{{$employees->date_of_birth}}</td>
+        <td width="10%" class="backgroundleft2pxright">16. CITIZENSHIP</td>
         <td colspan="2" class=""><input type="checkbox" value="" name="a36"/>Filipino <?php echo str_repeat("&nbsp;",5) ?> <input type="checkbox" value="" name="a36"/>Dual Citizenship
         <br><?php echo str_repeat("&nbsp;",35) ?><input type="checkbox" value="" name="a36"/>by birth <?php echo str_repeat("&nbsp;",5) ?> <input type="checkbox" value="" name="a36"/>by naturalization
         
@@ -68,7 +68,7 @@
         <td class="backgroundbottomright">4. PLACE OF BIRTH</td>
       <td class="bottomright2px">{{$employees->place_of_birth}}</td>
        <td class="backgroundholder" >if holder of dual citizenship,</td>
-      <td>Please indicate country</td>
+      <td class="center">Please indicate country</td>
         </tr>
         <tr>
         <td class="backgroundbottomright">5. SEX</td>
@@ -110,7 +110,7 @@
      <tr>
      <td class="backgroundbottomright">8.WEIGHT  (kg.)</td>
      <td class="bottomright2px"></td>
-     <td class="backgroundbottomright">ZIP CODE</td>
+     <td class="backgroundbottomright center">ZIP CODE</td>
      <td class="bottom"></td>
      <td class="bottom"></td>
      <td class="bottom"></td>
@@ -143,7 +143,7 @@
      <tr>
      <td class="backgroundbottomright">12. PHILHEALTH NO.</td>
      <td class="bottomright2px"></td>
-     <td class="backgroundbottomright">ZIP CODE</td>
+     <td class="backgroundbottomright center">ZIP CODE</td>
      <td class="bottom"></td>
      <td class="bottom"></td>
      <td class="bottom"></td>
@@ -152,7 +152,7 @@
      <td class="backgroundbottomright">13. SSS NO.</td>
      <td class="bottomright2px"></td>
      <td class="backgroundbottomright">19. TELEPHONE</td>
-     <td class="bottom">N/A</td>
+     <td class="bottom center">N/A</td>
      <td class="bottom"></td>
      <td class="bottom"></td>
      </tr>
@@ -167,8 +167,8 @@
      <tr>
      <td class="backgroundbottomright">AGENCY EMPLOYEE NO.</td>
      <td class="bottomright2px"></td>
-     <td class="backgroundbottomright">E-MAIL ADDRESS  (if any)</td>
-     <td class="bottom">N/A</td>
+     <td class="backgroundbottomright">21. E-MAIL ADDRESS  (if any)</td>
+     <td class="bottom center">N/A</td>
      <td claass="bottom"></td>
      </tr>
       </tbody>
@@ -180,81 +180,93 @@
     <table class="table" width="100%">
       <tbody>
         <tr>
-          <td width="30%" class="tbl">22. SPOUSE'S SURNAME</td>
-          <td></td>
-          <td style="padding-right:60px;" class="list">NAME OF CHILD</td>
-          <td class="list">DATE OF BIRTH</td>
+          <td class="backgroundright" width="28.6%">22. SPOUSE'S SURNAME</td>
+          <td width="" colspan="2" class="bottomright"></td>
+          <td width="" class="backgroundbottomright" style="font-size:9px;">23. NAME of CHILDREN (Write full name and list all)</td>
+          <td colspan="2"  class="backgroundbottom" style="font-size:9px;">DATE OF BIRTH (mm/dd/yyyy)</td>
+        
         </tr>
         <tr>
-          <td width="30%" class="tbl">FIRST NAME</td>
-          <td width="20%">rrrr</td>
-          <td width="20%">rrrr</td>
-          <td></td>
+          <td width="" class="backgroundright">FIRST NAME</td>
+          <td width="17%" class="bottomright"></td>
+          <td width="17%" class="backgroundbottomright" style="font-size:9px;">NAME EXTENSION (JR., SR) N/A</td>
+          <td width="24%"class="bottomright"></td>
+          <td width="24%"class="bottomright"></td>
         </tr>
         <tr>
-          <td class="tbl">MIDDLE SURNAME</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td class="backgroundbottomright">MIDDLE SURNAME</td>
+          <td colspan="2"class="bottomright"></td>
+          <td class="bottomright"></td>
+          <td class="bottom"></td>
+       
         </tr>
         <tr>
-          <td class="tbl">OCCUPATION</td>
-          <td></td>
-          <td></td>
-          <td></td>
+        <td class="backgroundbottomright">OCCUPATION</td>
+          <td colspan="2" class="bottomright"></td>
+          <td  class="bottomright"></td>
+          <td class="bottom"></td>
         </tr>
         <tr>
-          <td class="tbl">EMPLOYER NAME</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td class="backgroundbottomright">EMPLOYER/BUSINESS NAME</td>
+          <td colspan="2" class="bottomright"></td>
+          <td class="bottomright"></td>
+          <td class="bottomright"></td>
         </tr>
         <tr>
-          <td class="tbl">BUSINESS ADDRESS</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td class="backgroundbottomright">BUSINESS ADDRESS</td>
+          <td class="bottomright" colspan="2"></td>
+          <td class="bottomright"></td>
+          <td class="bottom"></td>
         </tr>
         <tr>
-          <td class="tbl">TELEPHONE NO.</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td class="backgroundbottomright">TELEPHONE NO.</td>
+          <td class="bottomright" colspan="2"></td>
+          <td class="bottomright"></td>
+          <td class="bottomright"></td>
         </tr>
         <tr>
-          <td class="tbl">FATHER'S SURNAME</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td class="backgroundright">24. FATHER'S SURNAME</td>
+          <td class="bottomright" colspan="2"></td>
+          <td class="bottomright"></td>
+          <td class="bottomright"></td>
+
         </tr>
         <tr>
-          <td class="tbl">FIRST NAME</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td class="backgroundright">FIRST NAME</td>
+          <td class="bottomright"></td>
+          <td class="backgroundbottomright" colspan="" style="font-size:9px;">NAME EXTENSION (JR.,SR.) N/A</td>
+          <td class="bottomright"></td>
+          <td class="bottom"></td>
         </tr>
         <tr>
-          <td class="tbl">MIDDLE NAME</td>
-          <td></td>
-          <td colspan="2"></td>
+          <td class="backgroundbottomright">MIDDLE NAME</td>
+          <td class="bottomright" colspan="2"></td>
+          <td class="bottomright"></td>
+          <td class="bottom"></td>
+        </tr>
+        <tr>
+          <td class="backgroundright">25. MOTHER'S MAIDEN NAME</td>
+          <td class="bottomright" colspan="2"></td>
+          <td class="bottomright"></td>
+          <td class="bottomright"></td>
+        </tr>
+        <tr>
+        <td class=backgroundright>SURNAME</td>
+        <td class="bottomright" colspan="2"></td>
+        <td class="bottomright"></td>
+        <td class="bottomright"></td>
+        </tr>
+        <tr>
+          <td class="backgroundright">FIRST NAME</td>
+          <td class="bottomright" colspan="2"></td>
+          <td class="bottomright"></td>
+          <td class="bottomright"></td>
+        </tr>
+        <tr>
+          <td class="backgroundbottomright">MIDDLE NAME</td>
+          <td class="bottomright" colspan="2"></td>
+          <td colspan="2" style="color:red;" class="backgroundbottomright center" style="text-align:center " colspan="2"><b><i>(Continue on separate sheet if necessary)</i></b></td>
          
-        </tr>
-        <tr>
-          <td class="tbl">25. MOTHER'S MAIDEN NAME</td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td class="tbl">FIRST NAME</td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td class="tbl">MIDDLE NAME</td>
-          <td></td>
-          <td style="color:red;" class="tbl center continue" colspan="2"><b><i>(Continue on separate sheet if necessary)</i></b></td>
         </tr>
       </tbody>
     </table>
@@ -265,7 +277,7 @@
     <table class="table" width="100">
       <tbody>
         <tr>
-          <td class="tbl" rowspan="2">26.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LEVEL</td>
+          <td class="backgroundbottomright" rowspan="2">26.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LEVEL</td>
           <td class="tbl center" rowspan="2">NAME OF SCHOOL<br>(write in full)</td>
           <td class="tbl center" rowspan="2">BASIC EDUCATION/DEGREE/COURSE<br>(write in full)</td>
           <td width="10" style="font-size:10px;" class="tbl center" colspan="2">PERIOD OF ATTENDANCE</td>
@@ -812,6 +824,12 @@ border-bottom: 0.1mm solid #a6a6a6;
 border-bottom: 0.1mm solid black;
 border-right: 0.1mm solid black;
 background-color:#a6a6a6;
+}
+
+.backgroundbottom{
+
+  border-bottom: 0.1mm solid black;
+  background-color:#a6a6a6;
 }
 
 .backgroundtopbottom{

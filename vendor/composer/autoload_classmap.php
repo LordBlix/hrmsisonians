@@ -99,6 +99,7 @@ return array(
     'App\\Providers\\RouteServiceProvider' => $baseDir . '/app/Providers/RouteServiceProvider.php',
     'App\\Ratings' => $baseDir . '/app/Models/Ratings.php',
     'App\\User' => $baseDir . '/app/User.php',
+    'App\\awards_profile' => $baseDir . '/app/awards_profile.php',
     'App\\manual' => $baseDir . '/app/manual.php',
     'App\\publication' => $baseDir . '/app/publication.php',
     'App\\retirable' => $baseDir . '/app/retirable.php',

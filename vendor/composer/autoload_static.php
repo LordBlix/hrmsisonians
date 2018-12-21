@@ -565,6 +565,7 @@ class ComposerStaticInit40fcbfe5ec75df46f81a17590cb5cac2
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\Ratings' => __DIR__ . '/../..' . '/app/Models/Ratings.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
+        'App\\awards_profile' => __DIR__ . '/../..' . '/app/awards_profile.php',
         'App\\manual' => __DIR__ . '/../..' . '/app/manual.php',
         'App\\publication' => __DIR__ . '/../..' . '/app/publication.php',
         'App\\retirable' => __DIR__ . '/../..' . '/app/retirable.php',
