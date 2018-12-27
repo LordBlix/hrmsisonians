@@ -18,7 +18,254 @@
 
 <table width="100%">
 <tr>
+<td class="left background top">&nbsp;</td>
+<td class=" bottom top  background" colspan="5"></td>
+<td class="right background top "></td>
+</tr>
+<tr>
+<td class="left background">&nbsp;</td>
+<td class="left right" colspan="5"></td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left background right"></td>
+<td colspan="5" class="right center"><b>Certification</b></td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="background left">&nbsp;</td>
+<td colspan="5" class="left right"> </td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left backgroundright"></td>
+<td colspan="2"></td>
+<td colspan="3" class="right">This is to certify that all requirements and supporting papers pursuant to CSC MC No. ___________________________</td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left background right"></td>
+<td></td>
+<td class="right" colspan="4">have been complied with, reviewed and found to be in order.</td>
+<td class="backgroundright"></td>
+</tr> 
+<tr>
+<td class="background left right"></td>
+<td colspan="2"></td>
+<td class="right" colspan="3">The position was published at __________________________________________ from ____________________ to _______________________</td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left right background">&nbsp;</td>
+<td></td>
+<td colspan="4" class="right">20 ___________ and posted in ______________________________________________________ from ________________________ to___________________________,</td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left right background">&nbsp;</td>
+<td></td>
+<td colspan="4" class="right">20 ___________ and posted in ______________________________________________________ from _______________________ to____________________________,</td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="background left right">&nbsp;</td>
+<td></td>
+<td colspan="4" class="right">20_______________ in consonace eith RA No 7041. The assessment bt the Human Resource Merit Promotion</td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="background left right"></td>
+<td></td>
+<td colspan="4" class="right">and Selection Board (HRMPSB) started on _______________________, 20____________.</td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="background left">&nbsp;</td>
+<td colspan="5" class="left right"></td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left background">&nbsp;</td>
+<td colspan="3" class="left"></td>
+<td colspan="2" class="right center"> Highest Ranking HRMO</td>
+<td class="background right"></td>
+
+</tr>
+<tr>
+<td class="left background">&nbsp;</td>
+<td colspan="5" class="left right"></td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left background">&nbsp</td>
+<td colspan="5" class="left right bottom"></td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left background">&nbsp;</td>
+<td colspan="5" class=" background bottom "></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td class="left background">&nbsp;</td>
+<td class="left right" colspan="5"></td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left backgroundright"></td>
+<td colspan="5" class="left right center"><b>Certification</b></td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left background">&nbsp;</td>
+<td colspan="5" class="left right"></td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left backgroundright"></td>
+<td></td>
+<td></td>
+<td class="right" colspan="3" style="font=size:14px;">This is to certify that the appointee has been screened and found</td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
 <td class="left backgroundright">&nbsp;</td>
+<td class=""></td>
+<td style="font-size:14px;" class="right" colspan="4">qualified by the majority of the HRMPSB during the deliberation held on ________________________________.</td>
+<td class="backgroundright" ></td>
+</tr>
+<tr>
+<td class="left background">&nbsp;</td>
+<td colspan="5" class="left right"></td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left background">&nbsp;</td>
+<td colspan="3" class="left"></td>
+<td colspan="2" class="right">_____________________________________________</td>
+<td class=" backgroundright"></td>
+</tr>
+<tr>
+<td class="left background">&nbsp;</td>
+<td colspan="3" class="left"></td>
+<td colspan="2" class="right center">Chairperson, HRMPSB</td>
+<td class=" backgroundright"></td>
+</tr>
+<tr>
+<td class="left background">&nbsp;</td>
+<td colspan="5" class="left bottom right"></td>
+<td class="backgroundright">&nbsp;</td>
+</tr>
+<tr>
+<td colspan="7" class="left background bottom right">&nbsp;</td>
+</tr>
+<tr>
+<td width="1%" class="">&nbsp;</td>
+<td width="2%" class="">&nbsp;</td>
+<td width="10%">&nbsp;</td>
+<td width="50&" class="">&nbsp;</td>
+<td width="34%">&nbsp;</td>
+<td width="2%" class="">&nbsp;</td>
+<td width="1%" class="">&nbsp;</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td class="left background top"></td>
+<td class="background center bottom top" colspan="3" style="font-size:14px;" class="background top bottom"><b>CSC Notation</b></td>
+<td class="backgroundright top"></td>
+</tr>
+<tr>
+<td class="left background right"></td>
+<td class=""></td>
+<td style="font-size:18px;" class="">wefwfwfwefwfwefwfwfwfwfwfwfwf</td>
+<td class="right"></td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left background right"></td>
+<td class=""></td>
+<td style="font-size:18px;" class="">wefwfwfwefwfwefwfwfwfwfwfwfwf</td>
+<td class="right"></td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left background right"></td>
+<td class=""></td>
+<td style="font-size:18px;" class="">wefwfwfwefwfwefwfwfwfwfwfwfwf</td>
+<td class="right"></td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left background">&nbsp;</td>
+<td class="background bottom top"></td>
+<td class="top background bottom"></td>
+<td class="top background bottom"></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td height="20%" class="left backgroundright">&nbsp;</td>
+<td></td>
+<td></td>
+<td class="right"></td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left backgroundright"></td>
+<td></td>
+<td  style="font-size:18px; padding-left:110px;">ANY ERASURE OR ALTERATION ON THE CS ACTION SHALL NULLIFY OR</td>
+<td class="right"></td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left background right"></td>
+<td></td>
+<td style="font-size:18px;">INVALIDATE THIS APPOINTMENT EXCEPT IF THE ALTERATION WAS AUTHORIZED BY</td>
+<td class="right"></td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td  class="left background right"></td>
+<td  style="font-size:18px;" class="">&nbsp;</td>
+<td style="font-size:18px;">THE COMMISSION</td>
+<td class="right"></td>
+<td class="backgroundright"></td>
+</tr>
+<tr>
+<td class="left background right">&nbsp;</td>
+<td class="bottom"></td>
+<td></td>
+<td class="right"></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td width="1%" class="bottom backgroundleft">&nbsp;</td>
+<td width="4%" class="backgroundbottom">&nbsp;</td>
+<td width="90%" class="backgroundbottom top">&nbsp;</td>
+<td width="4%" class="top backgroundbottom">&nbsp;</td>
+<td width="1%" class="backgroundbottomright">&nbsp;</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td>&nbsp;</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="left background top">&nbsp;</td>
+<td class="top background bottom "></td>
+<td class="top background bottom"></td>
+<td class="top backgroundright"></td>
+</tr>
+<tr>
+<td class="left backgroundright">&nbsp;</td>
+<td class="right"></td>
+<td class="right center" ><b>Acknowledgement</b></td>
+<td class="backgroundright"></td>
 </tr>
 <tr>
 <td class="left backgroundright">&nbsp;</td>
@@ -29,7 +276,7 @@
 <tr>
 <td class="left backgroundright"></td>
 <td class="right">Original Copy - for the Civil Service Commission</td>
-<td width="2%" class="right"><i>Received original/photocopy of appointment on _______________</i></td>
+<td width="" class="right"><i>Received original/photocopy of appointment on _______________</i></td>
 <td class="backgroundright"></td>
 </tr>
 <tr>
@@ -45,10 +292,10 @@
 <td class="backgroundright"></td>
 </tr>
 <tr>
-<td width="2%" class="bottom backgroundleft">&nbsp;</td>
+<td width="1%" class="bottom backgroundleft">&nbsp;</td>
 <td width="48%" class="backgroundbottom top"></td>
 <td width="38%"class="backgroundbottom top">&nbsp;</td>
-<td width="2%" class="backgroundbottomright">&nbsp;</td>
+<td width="1%" class="backgroundbottomright">&nbsp;</td>
 </tr>
 
 
@@ -244,11 +491,17 @@ background-color:#a6a6a6;
   vertical-align:bottom
 }
 
+.background{
+  background-color:#a6a6a6;
+}
 .right{
 
     border-right: 0.1mm solid black;
 }
+.top{
 
+  border-top: 0.1mm solid black;
+}
 
 
 .right2x{
