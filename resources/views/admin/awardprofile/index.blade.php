@@ -15,7 +15,114 @@
         use Illuminate\Support\Facades\Input
     @endphp
 
-
+<table width="100%">
+<tr>
+<td class="left background right"></td>
+<td colspan="4"></td>
+<td colspan="2" style="font-size:12px;" ><b>(Original, Promotion, etc.)</b></td>
+</tr>
+<tr>
+<td class="left background right"></td>
+<td></td>
+<td colspan="6" class="right"><b>____________________________________________________________,who ______________________________________ with Plantilla Item No. ________________</b></td>
+<td class="right background"></td>
+</tr>
+<tr>
+<td  class="left background right"></td>
+<td colspan="3"></td>
+<td colspan="4" style="font-size:12px;" colspan="" class="right"><b>(Transferred, Retired, etc.)</b></td>
+<td coldpan="" class="background right"></td>
+</tr>
+<tr>
+<td class="left background right"></td>
+<td></td>
+<td colspan="6" class="right"><b>Page ________________.</b></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td class="left background">&nbsp;</td>
+<td colspan="7" class="left right"></td>
+<td class="background right"></td>
+</td>
+</tr>
+<tr>
+<td class="left background right"></td>
+<td colspan="2"></td>
+<td colspan="5" class="right"><b>This appointment shall take effect on the date of signing by the appointing officer/authority.</b></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td class="left background">&nbsp;</td>
+<td colspan="7" class="left right"></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td class="left background right"></td>
+<td colspan="4"></td>
+<td colspan="3" class="right"><b>Very truly yours,</b></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td class="left background">&nbsp;</td>
+<td colspan="7" class="right left"></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td class="background left">&nbsp;</td>
+<td colspan="7" class="left right"></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td class="left background right"></td>
+<td></td>
+<td colspan="4"><b>Appointing Officer/Authority</b></td>
+<td class="">___________________________________</td>
+<td class="right"></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td class="background left">&nbsp;</td>
+<td colspan="7" class="left right"></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td class="left background"></td>
+<td colspan="5" class="left"></td>
+<td colspan="" class="center">______________________</td>
+<td colspan="1" class="right"></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td class="left background">&nbsp;</td>
+<td colspan="7" class="left right"></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td class="left background right">&nbsp;</td>
+<td colspan="5"></td>
+<td colspan="2" class="right center"><b>Date of Signing</b></td>
+<td colspan="" class="background right"></td>
+</tr>
+<tr>
+<td class="left background">&nbsp;</td>
+<td colspan="7" class="bottom left right"></td>
+<td class=" background right"></td>
+</tr>
+<tr>
+<td colspan="9" class="left background bottom right">&nbsp;</td>
+</tr>
+<tr>
+<td width="1%">&nbsp;</td>
+<td width="2%">&nbsp;</td>
+<td width="4%">&nbsp;</td>
+<td widt="34%"></td>
+<td  width="38%"></td>
+<td width="10%"></td>
+<td width ="10%"></td>
+<td width="2%"></td>
+<td width="1%">&nbsp;</td>
+</tr>
+</table>
 <table width="100%">
 <tr>
 <td class="left background top">&nbsp;</td>
