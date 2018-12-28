@@ -278,7 +278,7 @@
       <tbody>
         <tr>
           <td class="backgroundbottomright" rowspan="2">26.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LEVEL</td>
-          <td class="tbl center" rowspan="2">NAME OF SCHOOL<br>(write in full)</td>
+          <td class="tbl center" rowspan="2" cold>NAME OF SCHOOL<br>(write in full)</td>
           <td class="tbl center" rowspan="2">BASIC EDUCATION/DEGREE/COURSE<br>(write in full)</td>
           <td width="10" style="font-size:10px;" class="tbl center" colspan="2">PERIOD OF ATTENDANCE</td>
           <td style="font-size:10px;" class="tbl center" rowspan="2">HIGHEST LEVEL<br>UNITS EARNED<br>(if not graduated)</td>
@@ -290,9 +290,9 @@
           <td width="10"  class="tbl center">TO</td>
         </tr>
         <tr>
-          <td width="20%" class="tbl" >ELEMENTARY</td>
-          <td width="25%"></td>
-          <td width="25%"></td>
+          <td width="38%" class="tbl" >ELEMENTARY</td>
+          <td width="16%"></td>
+          <td width="16%"></td>
           <td width="5%"></td>
           <td width="5%"></td>
           <td width="10%"></td>
