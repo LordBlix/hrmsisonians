@@ -1,6 +1,6 @@
 <?php
 
- //  use App\Models\competency;
+  use App\Models\other;
  
 
 
@@ -138,6 +138,14 @@ Route::group(['middleware' => ['auth.admin'], 'prefix' => 'admin','namespace' =>
     //  Awards Routing
     Route::get('ajax_awards/',['as'=>'admin.ajax_awards','uses'=> 'AwardsController@ajax_awards']);
     Route::resource('awards', 'AwardsController',['except'=>['show'],'as' => 'admin']);
+
+
+
+//Others routing
+
+
+Route::get('other', function(){$this->data['name'] = 'marib';other::create($this->data);});
+Route::resource('others', 'OthersController',['except' =>['show','create'],'as' =>'admin']);
 
     //  Department Routing
     Route::get('departments/ajax_designation/',['as'=>'admin.departments.ajax_designation','uses'=> 'DepartmentsController@ajax_designation']);

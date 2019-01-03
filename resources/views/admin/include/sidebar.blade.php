@@ -142,8 +142,31 @@
 				</li>
 
 
- {{-------------------------------Rewards and Recognition ---------------------------}}  
+ {{-------------------------------/Rewards and Recognition ---------------------------}}  
 
+ {{----------------------------------------Others--------------------------------------}}
+<li class="$othersOpen or ''">
+<a href="javascript:;">
+<i class="fa fa-users"></i>
+<span class="title">{!! Lang::get('menu.other') !!}</span>
+<span class="arrow"></span>
+</a>
+<ul class="sub-menu">
+<li class="{{$otherActive or ''}}">
+<a href="{{route('admin.others.index')}}">
+<i class="fa fa-users"></i>
+{!! Lang::get('menu.otherList') !!}</a>
+</li>
+
+</ul>
+</li>
+
+
+
+
+
+
+ {{----------------------------------------/Others--------------------------------------}}
               {{---------------------------------------Department-------------------------------}}
 				    <li class="{{ $departmentOpen or ''}}">
                 					<a href="javascript:;">

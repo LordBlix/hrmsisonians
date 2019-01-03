@@ -6,6 +6,7 @@
     {!! HTML::style('assets/global/plugins/bootstrap-datepicker/css/datepicker3.css') !!}
     
     {!! HTML::style("training/style.css") !!}
+    {!! HTML::style("css/spms.css")!!}
     <!-- END PAGE LEVEL STYLES -->
 
 @stop
@@ -169,7 +170,13 @@
      <td class="bottomright2px"></td>
      <td class="backgroundbottomright">21. E-MAIL ADDRESS  (if any)</td>
      <td class="bottom center">N/A</td>
-     <td claass="bottom"></td>
+     <td class="bottom"></td>
+     </tr>
+     <tr>
+<td class="bottom4px" >ddrrrrrrddddd</td>
+     </tr>
+     <tr>
+<td>ddrrrdddd</td>
      </tr>
       </tbody>
     </table>
@@ -274,23 +281,23 @@
   <!--ROW3-->
   <div class="row-fluid body">
     <h5 class="title5"><b><i>III. EDUCATIONAL BACKGROUND</i></b></h5>
-    <table class="table" width="100">
+    <table class="table" width="100%">
       <tbody>
         <tr>
-          <td class="backgroundbottomright" rowspan="2">26.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LEVEL</td>
-          <td class="tbl center" rowspan="2" cold>NAME OF SCHOOL<br>(write in full)</td>
-          <td class="tbl center" rowspan="2">BASIC EDUCATION/DEGREE/COURSE<br>(write in full)</td>
-          <td width="10" style="font-size:10px;" class="tbl center" colspan="2">PERIOD OF ATTENDANCE</td>
-          <td style="font-size:10px;" class="tbl center" rowspan="2">HIGHEST LEVEL<br>UNITS EARNED<br>(if not graduated)</td>
-          <td width="50" class="tbl center" rowspan="2">YEAR<br>GRADUATED</td>
+          <td width="" class="backgroundbottomright" rowspan="2">26.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LEVEL</td>
+          <td width="" class="background bottom right" rowspan="2" colspan="3">NAME OF SCHOOL<br>(write in full)</td>
+          <td widht="" class="tbl center" rowspan="2">BASIC EDUCATION/DEGREE/COURSE<br>(write in full)</td>
+          <td width="" style="font-size:10px;" class="tbl center" colspan="2">PERIOD OF ATTENDANCE</td>
+          <td width="" style="font-size:10px;" class="tbl center" rowspan="2">HIGHEST LEVEL<br>UNITS EARNED<br>(if not graduated)</td>
+          <td width="" class="tbl center" rowspan="2">YEAR<br>GRADUATED</td>
           <td class="tbl center" rowspan="2">SCHOLARSHIP/<br>ACADEMIC<BR>HONORS<BR>RECEIVED</td>
         </TR>
         <tr>
-          <td width="10" class="tbl center">FROM</td>
-          <td width="10"  class="tbl center">TO</td>
+          <td width="" class="tbl center">FROM</td>
+          <td width=""  class="tbl center">TO</td>
         </tr>
         <tr>
-          <td width="38%" class="tbl" >ELEMENTARY</td>
+          <td width="42" class="tbl" >ELEMENTARY</td>
           <td width="16%"></td>
           <td width="16%"></td>
           <td width="5%"></td>
