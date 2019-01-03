@@ -17,126 +17,201 @@
 
 <table width="100%">
 <tr>
-<td class="background left right"></td>
-<td colspan="3"></td>
-<td style="font-size:12px;" colspan="3"><b>(permanent. Temporary, etc.)</b></td>
+<td class="background left top">&nbsp;</td>
+<td colspan="8" class="background top"></td>
+<td class="background top right"></td>
 </tr>
+<td class="background left"></td>
+<td colspan="8" class="bottom"></td>
+<td class="background right"></td>
 <tr>
 <td class="background left right"></td>
+<td class=""></td>
+<td colspan="7" class="right"><b>CS Form No. 33-A</b></td>
+<td class="background right"></td>
+
+</tr>
+<td class="background left right"></td>
 <td></td>
-<td colspan="6" class="right"><b>with a compensation rate of ________________________________________________________________ (P _________________________________________)</b></td>
+<td colspan="7" class="right" style="font-size:10px;"><b><i>Revised 2018</i></b></td>
+<td class="background right"></td>
+<tr>
+<td class="background left">&nbsp;</td>
+<td colspan="8" class="left right"></td>
 <td class="background right"></td>
 </tr>
 <tr>
 <td class="background left right"></td>
-<td></td>
-<td colspan="6" class="right"><b>pesos per month.</b></td>
+<td colspan="6"class=""></td>
+<td colspan="2" class="right" style="font-size:11px;"><i>(Stamp Date of Receipt)</i></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td class="background left right">&nbsp;</td>
+<td colspan="8" class="right"></td>
+<td class=" background right"></td>
+</tr>
+<tr>
+<td class="background left right"></td>
+<td colspan="8" class="right center "><b>Republic of the Philippines</b></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td class="background left right"></td>
+<td colspan="8" class="center right"><b><u>LOCAL GOVERNMENT UNIT OF SISON</u></b></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td class="background left"></td>
+<td colspan="8" class="left right center"><b><u>SISON, SURIGAO DEL NORTE</u></b></td>
 <td class="background right"></td>
 </tr>
 <tr>
 <td class="background left">&nbsp;</td>
-<td colspan="7" class="left right"></td>
+<td colspan="8" class="left right"></td>
+<td colspan="" class="background right"></td>
+</tr>
+<tr>
+<td class="background left">&nbsp;</td>
+<td colspan="8" class="left right"></td>
+<td colspan="" class="background right"></td>
+</tr>
+<tr>
+<td class="background left">&nbsp;</td>
+<td colspan="8" class="left right"></td>
+<td colspan="" class="background right"></td>
+</tr>
+<tr>
+<td class="background left right"></td>
+<td colspan="" class=""></td>
+<td colspan="7" class="right"><b>Mr./Mrs/Ms:_____________________________________________________________________________________________</b></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td class="background left right"></td>
+<td colspan="2" class=""></td>
+<td colspan="6" class="right"><b>You are hereby appointed as ________________________________________________________________________ (SG/JG/PG) ______,</b></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td class="background left right"></td>
+<td colspan="4"></td>
+<td class="right" style="font-size:12px;" colspan="4"><b>(permanent. Temporary, etc.)</b></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td class="background left right"></td>
+<td></td>
+<td colspan="7" class="right"><b>with a compensation rate of ________________________________________________________________ (P _________________________________________)</b></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td class="background left right"></td>
+<td></td>
+<td colspan="7" class="right"><b>pesos per month.</b></td>
+<td class="background right"></td>
+</tr>
+<tr>
+<td class="background left">&nbsp;</td>
+<td colspan="8" class="left right"></td>
 <td class="background right"></td>
 </tr>
 <tr>
 <td class="left background right"></td>
 <td colspan="2"></td>
-<td class="right" colspan="5"><b>The nature of appointment is __________________________________________________________________________ vice ________________</b></td>
+<td class="right" colspan="6"><b>The nature of appointment is __________________________________________________________________________ vice ________________</b></td>
 <td class="background right"></td>
 </tr>
 <tr>
 <td class="left background right"></td>
 <td colspan="4"></td>
-<td class="right" colspan="3" style="font-size:12px;" ><b>(Original, Promotion, etc.)</b></td>
+<td class="right" colspan="4" style="font-size:12px;" ><b>(Original, Promotion, etc.)</b></td>
 <td class="background right"></td>
 </tr>
 <tr>
 <td class="left background right"></td>
 <td></td>
-<td colspan="6" class="right"><b>____________________________________________________________,who ______________________________________ with Plantilla Item No. ________________</b></td>
+<td colspan="7" class="right"><b>____________________________________________________________,who ______________________________________ with Plantilla Item No. ________________</b></td>
 <td class="right background"></td>
 </tr>
 <tr>
 <td  class="left background right"></td>
 <td colspan="2"></td>
-<td colspan="4" style="font-size:12px;" colspan="" class="right"><b>(Transferred, Retired, etc.)</b></td>
+<td colspan="6" style="font-size:12px;" colspan="" class="right"><b>(Transferred, Retired, etc.)</b></td>
 <td coldpan="" class="background right"></td>
 </tr>
 <tr>
 <td class="left background right"></td>
 <td></td>
-<td colspan="6" class="right"><b>Page ________________.</b></td>
+<td colspan="7" class="right"><b>Page ________________.</b></td>
 <td class="background right"></td>
 </tr>
 <tr>
 <td class="left background">&nbsp;</td>
-<td colspan="7" class="left right"></td>
+<td colspan="8" class="left right"></td>
 <td class="background right"></td>
 </td>
 </tr>
 <tr>
 <td class="left background right"></td>
 <td colspan="2"></td>
-<td colspan="5" class="right"><b>This appointment shall take effect on the date of signing by the appointing officer/authority.</b></td>
+<td colspan="6" class="right"><b>This appointment shall take effect on the date of signing by the appointing officer/authority.</b></td>
 <td class="background right"></td>
 </tr>
 <tr>
 <td class="left background">&nbsp;</td>
-<td colspan="7" class="left right"></td>
+<td colspan="8" class="left right"></td>
 <td class="background right"></td>
 </tr>
 <tr>
 <td class="left background right"></td>
-<td colspan="4"></td>
+<td colspan="5"></td>
 <td colspan="3" class="right"><b>Very truly yours,</b></td>
 <td class="background right"></td>
 </tr>
 <tr>
 <td class="left background">&nbsp;</td>
-<td colspan="7" class="right left"></td>
+<td colspan="8" class="right left"></td>
 <td class="background right"></td>
 </tr>
 <tr>
 <td class="background left">&nbsp;</td>
-<td class="left right" colspan="7"></td>
+<td class="left right" colspan="8"></td>
 <td class="background right"></td>
 </tr>
 <tr>
 <td class="background left">&nbsp;</td>
-<td colspan="4" class="left"></td>
-<td class="">________________________________</td>
-<td colspan="2" class="right"></td>
+<td colspan="5" class="left"></td>
+<td colspan="3" class="right">________________________________</td>
 <td class="background right"></td>
 </tr>
 <tr>
 <td class="left background right"></td>
-<td colspan="4"></td>
-<td colspan="2"><b>Appointing Officer/Authority</b></td>
-
-<td class="right"></td>
+<td colspan="5"></td>
+<td colspan="3" class="right"><b>Appointing Officer/Authority</b></td>
 <td class="background right"></td>
 </tr>
 <tr>
 <td class="background left">&nbsp;</td>
-<td colspan="7" class="left right"></td>
+<td colspan="8" class="left right"></td>
 <td class="background right"></td>
 </tr>
 <tr>
 <td class="left background"></td>
-<td colspan="4" class="left"></td>
-<td colspan="" class="center">______________________</td>
-<td colspan="2" class="right"></td>
+<td colspan="5" class="left"></td>
+<td colspan="2" class="center">______________________</td>
+<td colspan="" class="right"></td>
 <td class="background right"></td>
 </tr>
 <tr>
 <td class="left background">&nbsp;</td>
-<td colspan="7" class="left right"></td>
+<td colspan="8" class="left right"></td>
 <td class="background right"></td>
 </tr>
 <tr>
 <td class="left background right">&nbsp;</td>
-<td colspan="4"></td>
-<td colspan="4" class="right center"><b>Date of Signing</b></td>
+<td colspan="5"></td>
+<td colspan="3" class="right center"><b>Date of Signing</b></td>
 <td colspan="" class="background right"></td>
 </tr>
 <tr>
