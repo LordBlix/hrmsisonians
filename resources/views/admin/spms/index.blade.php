@@ -122,7 +122,7 @@
      <td class="backgroundright">18. PERMANENT ADDRESS</td>
      <td class="bottom" style="vertical-align:bottom" style="vertical-align:bottom;"><i>HouseBlock/Lot No.</i></td>
         <td class="bottom" style="vertical-align:bottom" width="30%"><i>Street</i></td>
-        <td class="bottom"></td>
+       <td class="bottom"></td>
      </tr>
      <tr>
      <td class="backgroundbottomright">10. GSIS ID NO.</td>
@@ -153,9 +153,7 @@
      <td class="backgroundbottomright">13. SSS NO.</td>
      <td class="bottomright2px"></td>
      <td class="backgroundbottomright">19. TELEPHONE</td>
-     <td class="bottom center">N/A</td>
-     <td class="bottom"></td>
-     <td class="bottom"></td>
+     <td colspan="3" class="bottom center right">N/A</td>
      </tr>
      <tr>
      <td class="backgroundbottomright">14. TIN NO.</td>
@@ -166,28 +164,90 @@
      <td class="bottom"></td>
      </tr>
      <tr>
-     <td class="backgroundbottomright">AGENCY EMPLOYEE NO.</td>
-     <td class="bottomright2px"></td>
-     <td class="backgroundbottomright">21. E-MAIL ADDRESS  (if any)</td>
-     <td class="bottom center">N/A</td>
-     <td class="bottom"></td>
+     <td class="backgroundbottom5pxright5px">AGENCY EMPLOYEE NO.</td>
+     <td class="bottom5pxright5px"></td>
+     <td class="backgroundbottom5pxright5px">21. E-MAIL ADDRESS  (if any)</td>
+     <td colspan="3" class="bottom5px center">N/A</td>
      </tr>
      <tr>
-<td class="bottom4px" >ddrrrrrrddddd</td>
+       <td colspan="8" class="header1 bottom5px"><b> 
+         <div class="tit"><i>II. FAMILY BACKGROUND</i></div>
+        </td>
+</tr>
+<tr>
+<td class="backgroundright ">22. SPOUSE'S SURNAME</td>
+<td colspan="2" class="bottomright"></td>
+<td colspan="1" class="backgroundbottomright">23. NAME of CHILDREN (Write full name and list all)</td>
+<td style="font-size:8px;" colspan="2" class="backgroundbottom">DATE OF BIRTH (mm/dd/yyyy)</td>
+</tr>
      </tr>
      <tr>
-<td>ddrrrdddd</td>
+<td class="backgroundright">FIRST NAME</td>
+<td class="bottomright"></td>
+<td colspan="1" class="backgroundbottomright">NAME EXTENSION (JR. SR.)</td>
+<td class="bottomright"></td>
+<td colspan="2" class="bottom"></td>
+     </tr>
+<tr>
+  <td class="backgroundbottomright">MIDDLE NAME</td>
+  <td colspan="2" class="bottomright"></td>
+  <td class="bottomright"></td>
+  <td colspan="2" class="bottomright"></td>
+</tr>
+<tr><td class="backgroundbottomright">OCCUPATION</td><td colspan="2" class="bottomright"></td><td class="bottomright"></td><td colspan="2" class="bottomright"></td></tr>
+<tr>
+  <td class="backgroundbottomright">EMPLOYER/BUSINESS NAME</td>
+  <td colspan="2" class="bottomright"></td>
+  <td class="bottomright"></td>
+  <td colspan="2" class="bottomright"></td>
+</tr>
+<tr>
+  <td class="backgroundbottomright">BUSINESS ADDRESS</td>
+  <td colspan="2" class="bottomright"></td>
+  <td class="bottomright"></td>
+  <td colspan="2" class="bottomright"></td>
+</tr>
+<tr>
+  <td class="backgroundbottomright">TELEPHONE NO.</td>
+  <td colspan="2" class="bottomright"></td>
+  <td class="bottomright"></td>
+  <td colspan="2" class="bottomright"></td>
+</tr>
+<tr>
+  <td class="backgroundright">FATHER'S SURNAME</td>
+  <td colspan="2" class="bottomright"></td>  
+  <td class="bottomright"></td>
+  <td colspan="2" class="bottomright"></td>
+</tr>
+<tr>
+  <td class="backgroundright">FIRST NAME</td>
+  <td colspan="2" class="bottomright"></td>
+  <td class="bottomright"></td>
+  <td colspan="2" class="bottomright"></td>
+</tr>
+<tr><td class="backgroundbottomright">MIDDLE NAME</td><td colspan="2" class="bottomright"></td><td class="bottomright"></td><td colspan="2" class="bottomright"></td></tr>
+ <tr><td class="backgroundright">24. FATHER'S NAME</td><td colspan="2" class="bottomright"></td><td class="bottomright"></td><td colspan="2" class="bottom"></td></tr>    
+<tr><td class="backgroundright">FIRST NAME</td><td colspan="2" class="bottomright"></td><td class="bottomright"></td><td colspan="2" class="bottom"></td></tr>
+<tr><td class="backgroundbottom5pxright">MIDDLE NAME</td><td colspan="2" class="bottom5pxright"></td><td class="bottom5pxright"></td><td colspan="2" class="bottom5px"></td></tr>
+<tr>
+  <td colspan="8" class="header1 bottom5px">
+    <div class="tit">III. EDUCATIONAL BACKGROUND</div></td>
+</tr>
+<tr><td class="backgroundright">26. LEVEL</td><td colspan="2"  class="backgroundright center">Name Of School</td>PERIOD OF ATTENDANCE<td class="bottomright"></td><td colspan="2" class="bottomright"></td></tr>
+  <tr><td class="backgroundbottomright">&nbsp</td><td colspan="2" class="backgroundbottomright center"><div class="tit1">(Write in full)</div><td></td></tr>
+   <tr><td class="pubpp"></td><td class="bottomright"></td><td class="bottomright"></td></tr>   
+  <td> &nbsp;</td>
      </tr>
       </tbody>
     </table>
   </div>
   <!--ROW2-->
   <div class="row-fluid body">
-    <h5 class="title5"><b><i>II. FAMILY BACKGROUND</i></b></h5>
+  
     <table class="table" width="100%">
       <tbody>
         <tr>
-          <td class="backgroundright" width="28.6%">22. SPOUSE'S SURNAME</td>
+          
           <td width="" colspan="2" class="bottomright"></td>
           <td width="" class="backgroundbottomright" style="font-size:9px;">23. NAME of CHILDREN (Write full name and list all)</td>
           <td colspan="2"  class="backgroundbottom" style="font-size:9px;">DATE OF BIRTH (mm/dd/yyyy)</td>
@@ -795,6 +855,11 @@ table,th,td1
 .bottom{
   height:1px;
   border-bottom: 0.1mm solid black;
+}
+
+.top2px{
+  height:1px;
+  border-top: 0.3mm solid black;
 }
 
 .backgroundright{

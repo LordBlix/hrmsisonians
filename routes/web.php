@@ -1,6 +1,6 @@
 <?php
 
-  use App\Models\other;
+  use App\Models\service_records;
  
 
 
@@ -139,6 +139,14 @@ Route::group(['middleware' => ['auth.admin'], 'prefix' => 'admin','namespace' =>
     Route::get('ajax_awards/',['as'=>'admin.ajax_awards','uses'=> 'AwardsController@ajax_awards']);
     Route::resource('awards', 'AwardsController',['except'=>['show'],'as' => 'admin']);
 
+
+
+//service record
+
+Route::get('serecord', function(){
+
+    $this->data['name'] = 'marib';service_records::create($this->data);
+});
 
 
 //Others routing

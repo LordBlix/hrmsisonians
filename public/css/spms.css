@@ -1,3 +1,16 @@
+.header1{
+
+  background-color:#868686;
+
+}
+
+
+.bottom5px{
+  border-bottom: 1mm solid black;
+  vertical-align:top;
+}
+
+
 .bottom4px
 {
   position: absolute; 
@@ -44,9 +57,27 @@
 .header, .body{
   border:2px solid #000000;
 }
-.tbl{
+
+.borr{
+border-left:1px solid black;
+border-right:1px solid black;
+
+
+}
+
+.bor{
   
-  
+  border-left:1px solid black;
+  border-right:1px solid black;
+  border-bottom:1px solid black;
+}
+
+.bo{
+ border-left:1px solid black;
+ border-right:1px solid black;
+ border-top:1px solid black;
+
+
 }
 
 .list{
@@ -81,7 +112,8 @@ table1,th,td1
 }
 
 
-  <style>
+
+
   .center{
   text-align:center !important;
 }
@@ -129,6 +161,59 @@ table1,th,td1
 .backgroundleft{
     border-left: 0.1mm solid black;
     background-color:#a6a6a6;
+}
+
+.bottom5pxright5px{
+height:1px;
+border-bottom: 1mm solid black;
+border-right: 1mm solid black;
+}
+
+.bottom5px{
+
+  border-bottom: 1mm solid black;
+}
+
+.backgroundbottom5pxright5px{
+  height:1px;
+  border-bottom: 1mm solid black;
+  background-color:#a6a6a6;
+  border-right: 0.1mm solid black;
+}
+
+.tit{
+height: 4px;
+margin-top: -8px;
+font: italic bold 15px, georgia, serif;
+color:#ffffff;
+
+}
+
+.tit1{
+  height: 4px;
+  margin-top: -20px;
+  font: italic bold 10px, georgia, serif;
+  background-color:#a6a6a6;
+  
+  }
+
+.backgroundbottom5pxright{
+height: 1px;
+border-bottom: 1mm solid black;
+background-color:#a6a6a6;
+border-right: 0.1mm solid black;
+}
+
+
+.bottom5pxright{
+
+  border-bottom: 1mm solid black;
+  border-right: 0.1mm solid black;
+}
+
+.bottom{
+border-bottom: 0.1mm solid black;
+
 }
 
 .backgroundright{
