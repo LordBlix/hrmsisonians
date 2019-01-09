@@ -33,13 +33,8 @@
       <tbody>
       <tr>
       <td width="30%" class="backgroundright">2. SURNAME</td>
-      <td colspan="1" class="surname">{{$employees->surname}}</td>
-      <td class="bottom"></td>
-      <td class="bottom"></td>
-      <td class="bottom"></td>
-      <td class="bottom"></td>
-
-      <tr>
+      <td colspan="5" class="surname">{{$employees->surname}}</td>
+         <tr>
       <td width="30%" class="backgroundright">FIRST NAME</td>
       <td width="20%" colspan="1" class="bottom">{{$employees->first_name}}</td>
       <td width="18%" class="bottom"></td>
@@ -102,7 +97,7 @@
         </tr>
         <tr>
         <td class="backgroundbottomright">7. HEIGHT (m)</td>
-        <td class="bottomright2px"></td>
+        <td class="bottomright2px">{{$employees->Height}}</td>
         <td class="backgroundleft2pxright"></td>
         <td class="bottom" style="vertical-align:bottom" style="vertical-align:bottom;"><i>City/Municipality</i></td>
         <td class="bottom" style="vertical-align:bottom" width="30%"><i>Province</i></td>
@@ -110,15 +105,15 @@
         </tr>
      <tr>
      <td class="backgroundbottomright">8.WEIGHT  (kg.)</td>
-     <td class="bottomright2px"></td>
+     <td class="bottomright2px">{{ $employees->Weight}}</td>
      <td class="backgroundbottomright center">ZIP CODE</td>
-     <td class="bottom"></td>
+     <td class="bottom">{{ $Zip}}</td>
      <td class="bottom"></td>
      <td class="bottom"></td>
      </tr>
      <tr>
      <td class="backgroundbottomright">9. BLOOD TYPE</td>
-     <td class="bottomright2px"></td>
+     <td class="bottomright2px">{{$bloodType}}</td>
      <td class="backgroundright">18. PERMANENT ADDRESS</td>
      <td class="bottom" style="vertical-align:bottom" style="vertical-align:bottom;"><i>HouseBlock/Lot No.</i></td>
         <td class="bottom" style="vertical-align:bottom" width="30%"><i>Street</i></td>
@@ -170,13 +165,13 @@
      <td colspan="3" class="bottom5px center">N/A</td>
      </tr>
      <tr>
-       <td colspan="8" class="header1 bottom5px"><b> 
+       <td colspan="8" class="header1 bottom5px">
          <div class="tit"><i>II. FAMILY BACKGROUND</i></div>
         </td>
 </tr>
 <tr>
 <td class="backgroundright ">22. SPOUSE'S SURNAME</td>
-<td colspan="2" class="bottomright"></td>
+<td colspan="2" class="bottomright">{{$familyBackground->spouseSurname}}</td>
 <td colspan="1" class="backgroundbottomright">23. NAME of CHILDREN (Write full name and list all)</td>
 <td style="font-size:8px;" colspan="2" class="backgroundbottom">DATE OF BIRTH (mm/dd/yyyy)</td>
 </tr>
@@ -233,9 +228,10 @@
   <td colspan="8" class="header1 bottom5px">
     <div class="tit">III. EDUCATIONAL BACKGROUND</div></td>
 </tr>
-<tr><td class="backgroundright">26. LEVEL</td><td colspan="2"  class="backgroundright center">Name Of School</td>PERIOD OF ATTENDANCE<td class="bottomright"></td><td colspan="2" class="bottomright"></td></tr>
-  <tr><td class="backgroundbottomright">&nbsp</td><td colspan="2" class="backgroundbottomright center"><div class="tit1">(Write in full)</div><td></td></tr>
-   <tr><td class="pubpp"></td><td class="bottomright"></td><td class="bottomright"></td></tr>   
+<tr><td class="backgroundright">26. LEVEL</td><td colspan="1"  class="backgroundright center">Name Of School</td><td colspan="" class="backgroundbottomright">PERIOD OF ATTENDANCE</td><td class="bottomright"></td><td colspan="2" class="bottomright"></td></tr>
+  <tr><td class="backgroundbottomright">&nbsp</td><td colspan="1" class="backgroundbottomright center"><div class="tit1">(Write in full)</div><td></td></tr>
+   <tr><td class="pubpp"></td><td class="bottomright"></td><td class="bottomright
+   "></td></tr>   
   <td> &nbsp;</td>
      </tr>
       </tbody>

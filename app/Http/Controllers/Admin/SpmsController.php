@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use  App\Http\Controllers\AdminBaseController;
 use App\Models\spms;
 use App\Models\Employee;
+use App\Models\Family_background;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\View;
 class SpmsController extends AdminBaseController
@@ -26,8 +27,10 @@ class SpmsController extends AdminBaseController
     { 
         $this->data['performance1Active'] ='active';
         $this->data['emps'] = 'checked';
-
-        $this->data['employees'] = Employee::find(1);
+        $this->data['bloodType'] = 'O';
+        $this->data['Zip'] = '8400';
+        $this->data['familyBackground'] = Family_Background::find(32);
+        $this->data['employees'] = Employee::find(32);
         return View::make('admin.spms.index', $this->data);
       
     
